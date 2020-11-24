@@ -1,0 +1,98 @@
+.bird-rw{
+    height:100vh;
+    background-image:url(newtree.gif);
+    background-repeat:No-repeat;
+    background-size:100%;
+    height: 99vh;
+}
+
+.api-button{
+    border:2px solid red;
+}
+
+.api-button a{
+    border:2px solid green;
+    cursor: pointer;
+}
+
+.animation{
+    z-index:10000;
+    width:100%;
+    position: relative;
+    right:20px;
+}
+
+.background{
+    width:80%;
+    height:100%;
+    position:relative;
+    right:25%;
+    background-color:rgb(0,0,0,0.6);
+    transform:skew(25deg);
+}
+
+.header{
+    color:white;
+    opacity:1;
+    z-index:100;
+    font-size:35px;
+    font-weight:bold;
+    letter-spacing:2px;
+    
+}
+.header2{
+    color:white;
+    opacity:1;
+    z-index:100;
+    display:flex;
+    font-size:30px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    
+}
+
+.header2 p{
+    color:rgb(240,128,128);
+    z-index:10000;
+    opacity:1;
+    font-weight:bold;
+}
+
+.header3{
+    color:white;
+    opacity:1;
+    z-index:100;
+    display:flex;
+    font-size:20px;
+    
+}
+
+.calc-cont{
+    transform:skew(-25deg);
+    width:50%;
+    position:relative;
+    left:50%;
+    top:40%;
+}
+
+.sp{
+    margin:25px;
+}
+
+.button{
+    justify-content:center;
+    width:50%;
+    margin:auto;
+    color:rgb(240,128,128);
+    font-size:20px;
+    border-radius:27px;
+    padding:10px;
+    text-align:center;
+    cursor:pointer;
+    box-shadow:0 1px 0 1px white,
+                0 1px 0 1px white,
+                0 1px 0 1px white,
+                0 1px 0 1px white
+}
+
+
